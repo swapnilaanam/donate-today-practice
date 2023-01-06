@@ -208,3 +208,51 @@ main {
 .album-img> img:last-child {
     margin-left: 0;
 }
+
+/* newsletter styles */
+
+.newsletter {
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 150px;
+}
+
+.newsletter > .title {
+    color: black;
+}
+
+.newsletter > .sub-title {
+    padding: 0 100px;
+    color: #4f4f4f;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.newsletter-form {
+    background-color: antiquewhite;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+.newsletter-form > input[type="email"] {
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:  lightgray;
+    padding: 10px;
+    width: 25%;
+}
+
+.newsletter-form > input[type="submit"] {
+    border: 0;
+    color: white;
+    padding: 10px 45px;
+    background-color: rgb(227, 82, 104);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
