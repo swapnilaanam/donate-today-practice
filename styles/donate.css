@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,6 +14,25 @@
     font-weight: 600;
     font-size: 22px;
     cursor: pointer;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #2e2e2e;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    color: lightslategray;
+    font-size: 20px;
+    padding: 0 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Header Styles */
@@ -37,7 +56,7 @@
     padding-top: 170px;
 }
 
-.banner h2{
+.banner h2 {
     font-weight: 900;
     font-size: 60px;
 }
@@ -59,19 +78,6 @@ main {
     margin-top: 130px;
     text-align: center;
     padding: 0 210px;
-}
-
-.donate-today .title {
-    font-weight: 700;
-    font-size: 50px;
-    color: #2e2e2e;
-    margin-bottom: 20px;
-}
-
-.donate-today .sub-title {
-    color: lightslategray;
-    font-size: 20px;
-    padding: 0 40px;
 }
 
 .donate-amounts {
@@ -98,8 +104,11 @@ main {
 
 .amount:hover {
     border: 3px solid rgb(255, 5, 130);
+    background-color: antiquewhite;
+}
+
+.amount:hover h4 {
     color: rgb(255, 5, 130);
-    background-color: rgba(255, 105, 180, 0.797);
 }
 
 .donate-form input[type="number"] {
@@ -107,6 +116,49 @@ main {
     outline: 0;
     border-bottom: 1px solid lightslategray;
     width: 100%;
-    padding-bottom: 15px;
-    margin-top: 40px;
+    padding-bottom: 12px;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* donate-plan styles */
+
+.donate-plan {
+    margin-top: 135px;
+    text-align: center;
+}
+
+.donate-plan .sub-title {
+    padding: 0 260px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.plans {
+    display: flex;
+    gap: 30px;
+}
+
+.plan {
+    text-align: left;
+    border-radius: 5px;
+    padding: 60px 35px 60px 30px;
+}
+
+.plan img {
+    margin-bottom: 25px;
+}
+
+.plan h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.plan p {
+    color: lightslategray;
+    font-weight: 500;
+    font-size: 18px;
 }
